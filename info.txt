@@ -1,0 +1,7 @@
+Assumptions:
+- Airflow is parallel to wind direction along entire system
+- Airflow @turbines height has direction of airflow at measure station (turbines ~40m -> measure station 60, 80, 100)
+
+To consider:
+- Airflow direction change instantly -> frome measure station to turbines
+- mean windspeed variance etc.
