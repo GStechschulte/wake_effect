@@ -31,7 +31,7 @@ class interaction_matrix():
                 index=self.data['WTG'].unique()
             )
 
-            subset_proximity_haver = haversine_df[(haversine_df <= 1875) & (haversine_df > 625)]
+            subset_proximity_haver = haversine_df[(haversine_df <= 720) & (haversine_df > 250)]
             subset_proximity_haver.fillna(value=0, inplace=True)
             subset_proximity_haver[subset_proximity_haver > 0] = 1
         else:
