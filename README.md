@@ -1,2 +1,3 @@
 # wake_effect
-Quantifying wake effects of wind farms using network analysis
+
+Using network analysis to determine which turbines in a wind farm could be susceptible to wake effects.
